@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #dad9d9 !important;
+}
+
+.comprobante {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 550px !important;
+    margin: 5px auto !important;
+    padding: 15px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.1),-12px -12px 20px rgba(0, 0, 0, 0.1) !important;
+    background-color: #fff !important;
+}
+
+.comprobante  .imagen-derecha {
+    float: left !important;
+    display: flex !important;
+    width: 100px !important; /* Ancho fijo para la imagen */
+    height:min-content !important;
+    flex-direction: column !important;
+}
+
+.titulo {
+    text-align: center !important;
+    margin-bottom: 5px !important;
+    color: #053057 !important;
+}
+
+.campo {
+    color:#053057 !important;
+    flex-direction: column !important;
+    display: inline-block !important;
+    height: 35px !important;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+
+.span {
+    display: inline-block !important;
+    color: black !important;
+    flex-direction: column !important;
+    height: 35px !important;
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    form {
+      width: 90% !important;
+    }
+  }

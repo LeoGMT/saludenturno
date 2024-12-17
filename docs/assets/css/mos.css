@@ -1,0 +1,88 @@
+.MPbody {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.MPmain-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.MPh1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #27486e;
+}
+
+.MPpersonal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.MPpersonal-item {
+    border: 2px solid #27486e;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.MPpersonal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #d0d6db;
+    cursor: pointer;
+}
+
+.MPpersonal-header .personal-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #27486e;
+}
+
+.MPsedes-info {
+    display: none;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.MPpersonal-info p {
+    margin: 0.5rem 0;
+    color: #27486e;
+}
+
+.MPpersonal-info input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.MPedit-btn, .MPdelete-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #27486e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.MPedit-btn:hover, .MPdelete-btn:hover {
+    background-color: #1d3557;
+}
+
+.MPdelete-btn {
+    display: block;
+    margin: 2rem auto 0;
+}

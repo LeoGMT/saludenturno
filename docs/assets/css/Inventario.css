@@ -1,0 +1,90 @@
+.INbody {
+    padding-top: 5%;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.INmain {
+    width: 64rem;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.INmain-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4a5568;
+    margin-bottom: 1.5rem;
+}
+
+.INgrid-header {
+    display: grid;
+    grid-template-columns: 130px 190px 180px 190px 185px;
+    gap: 1.5rem;
+    text-align: center;
+    color: #4a5568;
+    font-weight: 600;
+}
+
+.INgrid-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.INitem {
+    display: flex;
+    align-items: center;
+}
+
+.INitem span {
+    margin-right: 1rem;
+}
+
+.INicon {
+    font-size: 1.25rem;
+    color: #718096;
+}
+
+.INinput {
+    border: 2px solid #161616;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    padding-left: 10%;
+}
+
+.INdiv1{
+    border: 2px solid #161616;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    width: 10.5rem;
+}
+
+.INedit-btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #27486e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.INsave-btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #27486e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

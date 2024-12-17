@@ -1,0 +1,185 @@
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+
+body {
+    max-width: 80vw; /* Establece un ancho máximo del 80% del ancho de la pantalla */
+    margin: 0 auto; /* Centra el contenido */
+  }
+
+h1{
+    color: #0A4476;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Glacial indifference', sans-serif;
+    
+}
+
+.texto{
+
+    text-align: center;
+    color: #0A4476;
+    font-size: 30px;
+    font-family: 'Glacial indifference', sans-serif;
+}
+.titulo{
+    width: 100%; /* Ancho del contenedor */
+    margin: 60px auto; /* Centrar el contenedor horizontalmente */
+    border: 1px solid rgb(253, 253, 253); /* Borde del contenedor */
+    padding: 30px; /* Relleno alrededor de los cuadros de texto */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.cuadro1{
+    width: 45%; /* Ancho del cuadro de texto */
+    height: 700px; /* Altura del cuadro de texto */
+    border: 1px solid rgb(255, 255, 255); /* Borde del cuadro de texto */
+    padding: 30px; /* Relleno alrededor del texto */
+    text-align: center;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    margin-left: 60px auto;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+.cuadro2{
+    width: 50%; /* Ancho del cuadro de texto */
+    height: 700px; /* Altura del cuadro de texto */
+    border: 1px solid rgb(255, 255, 255); /* Borde del cuadro de texto */
+    padding: 30px; /* Relleno alrededor del texto */
+    text-align: center;
+    margin-left: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    margin-left: 0%;
+}
+
+.cuadro{
+    width: 90%; /* Ancho del cuadro de texto */
+    height: 700px; /* Altura del cuadro de texto */
+    border: 1px solid rgb(255, 255, 255); /* Borde del cuadro de texto */
+    padding: 30px; /* Relleno alrededor del texto */
+    text-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 60px auto;
+    display: flex;
+    align-content: center; 
+}
+
+.cajitatexto{
+    width: 90%; /* Ancho del contenedor */
+    height: 20px;
+    margin: 20px auto; /* Centrar el contenedor horizontalmente */
+    border: 1px solid rgb(253, 253, 253); /* Borde del contenedor */
+    padding: 15px; /* Relleno alrededor de los cuadros de texto */
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    margin-top: 0;
+    text-align: right;
+    justify-content: flex-end;
+    margin-right: 0%;
+    
+
+    
+    /* Centra horizontalmente */
+}
+
+.i{
+    width: 400px; /* Ajuste el ancho según sea necesario */
+    height: 30px; /* Ajuste la altura según sea necesario */
+    padding: 10px; /* Agregue relleno para espaciado */
+    border: 1px solid #ccc; /* Agregar un borde */
+    margin: 20px; /* Agregue margen para espaciado */
+    border-radius: 25px;
+    flex: content;
+    align-items: flex-start;
+    border-color: #0A4476;
+    border-width: 3px;
+    margin-top: 0%;
+    margin-left: 0%;
+    
+    
+    
+    
+}
+
+.grupo{
+    font-size: 20px;
+    text-align: center;
+    color: #0A4476;
+    font-family: 'Glacial indifference', sans-serif;
+    width: 400px; /* Ajuste el ancho según sea necesario */
+    height: 30px; /* Ajuste la altura según sea necesario */
+    padding: 10px; /* Agregue relleno para espaciado */
+    margin: auto;
+}
+
+.f{
+    position: absolute; /* Habilitar posicionamiento absoluto */
+    bottom: 120px; /* Posicionar en la parte inferior de la página */
+    left: 45%; /* Posicionar en el lado izquierdo de la página */
+    width: 300px; /* Abarcar todo el ancho de la página */
+    height: 30px;
+    justify-content: center;
+    outline: none;
+    border-color: #0A4476;
+    background-color: #0A4476;
+    border-radius: 25px;
+    max-width: 80vw; /* Establece un ancho máximo del 80% del ancho de la pantalla */
+    margin: 0 auto; /* Centra el contenido */
+    
+}
+
+.b{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    font-family: 'Glacial indifference', sans-serif;
+    background-color: #0A4476;
+    
+    
+    
+    outline: none;
+}
+
+.main{
+    max-width: 800px;
+    padding: 1rem;
+    background-color: #fff;
+
+}
+
+.co{
+    width: 100%; /* Ajuste el ancho según sea necesario */
+    height: 30px; /* Ajuste la altura según sea necesario */
+    margin-top: 0%;
+    border-radius:  25px;
+    margin-left: 0%;
+    margin-right: 100%;
+    align-items: center;
+    margin: 20px;
+}
+
+.icon{
+    width: 20px; /* Ajuste el ancho según sea necesario */
+    height: 20px; /* Ajuste la altura según sea necesario */
+    
+}
+@media (max-width: 640px) {
+    .texto {
+        font-size: 15px;   
+    }
+    h1{
+        font-size: 50px;
+        text-align: center;   
+    }
+}

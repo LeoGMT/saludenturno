@@ -1,0 +1,72 @@
+.REPbody {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.REPmain-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.REPh1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #27486e;
+}
+
+.REPpersonal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.REPpersonal-item {
+    border: 2px solid #27486e;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.REPpersonal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #d0d6db;
+    cursor: pointer;
+}
+
+.REPpersonal-header .REPpersonal-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #27486e;
+}
+
+.REPpersonal-info {
+    display: none;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.REPpersonal-info p {
+    margin: 0.5rem 0;
+    color: #27486e;
+}
+
+.REPpersonal-info span {
+    font-weight: normal;
+    color: #333;
+}
+
+.fa-chevron-up {
+    transition: transform 0.3s ease;
+}
+
+.fa-chevron-down {
+    transition: transform 0.3s ease;
+}
